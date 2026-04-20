@@ -4,33 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Set page title -->
-    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Web Dev Project | Ch. 10</title>
 </head>
 
 <body>
-    <div>
+    <div id="wrapper">
         <!-- Header -->
-        <header>
+        <header class="hero">
+            <div class="hero-text">
+                <h1>Web Hosting Options and Considerations</h1>
+                <p>Comparing traditional hosting providers and the platform I would actually use for this project.</p>
+            </div>
         </header>
 
-        <!-- Navigation -->
-        <nav>
-        </nav>
-
-        <!-- Main Content -->
+        <!-- No nav needed for single page-->
+        <!-- Main Content-->
         <main>
-            <p>
-                Hello World
-            </p>
+            <section class="intro">
+                <h2>Comparing Hosting Options</h2>
+                <p>
+                    For this assignment, I compared three different web hosting providers against the needs of my final
+                    website project. Since my site is a simple one page website, I wanted to compare more traditional
+                    web hosting providers along with the solution I actually plan to use.
+                </p>
+            </section>
+
+            <section class="host-card">
+                <img src="media/namecheap-logo.png" alt="Namecheap logo" class="provider-logo">
+                <div class="card-text">
+                    <h3>Namecheap</h3>
+                    <p>
+                        Namecheap seems like a strong option for more traditional web hosting. It appears to provide many
+                        of the features I would expect from a hosting provider, such as SSL support, email hosting,
+                        backups, and options for databases and scripting support. It seems like a good choice for someone
+                        who wants a more standard hosting experience with room to grow later.
+                    </p>
+                </div>
+            </section>
+
+            <section class="host-card">
+                <img src="media/godaddy-logo.png" alt="GoDaddy logo" class="provider-logo">
+                <div class="card-text">
+                    <h3>GoDaddy</h3>
+                    <p>
+                        GoDaddy also seems like a solid traditional hosting provider, but it stood out to me more for
+                        its support options and ease of use. Compared to Namecheap, GoDaddy appears to emphasize customer
+                        support more heavily, especially with phone, chat, and text support being available.
+                    </p>
+                </div>
+            </section>
+
+            <section class="host-card">
+                <img src="media/cloudflare-pages-logo.png" alt="Cloudflare Pages logo" class="provider-logo">
+                <div class="card-text">
+                    <h3>Cloudflare Pages</h3>
+                    <p>
+                        Cloudflare Pages is a little different from the other two options because it is designed more for
+                        hosting static websites and simpler web projects. Since my project is a one page site built with
+                        HTML and CSS, this makes a lot of sense for what I need.
+                    </p>
+                </div>
+            </section>
+
+            <section class="choice">
+                <h3>My Choice</h3>
+                <p>
+                    If I were choosing a hosting solution for this specific project, I would use Cloudflare Pages. My
+                    main reason is that it fits the actual needs of my site better than a traditional web hosting plan.
+                    Since this is a simple one page website, I do not need many of the extra features that come with
+                    Namecheap or GoDaddy.
+                </p>
+            </section>
         </main>
 
         <!-- Footer -->
         <footer>
             <small>
                 <i>
-                    Copyright &copy; 2026 Stuart Loberg -
-                    <a href="mailto:sloberg4772@students.lcstate.edu">sloberg4772@students.lcstate.edu</a>
+                    Copyright &copy; 2026 Stuart Loberg
                 </i>
             </small>
         </footer>

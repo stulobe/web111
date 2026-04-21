@@ -23,10 +23,7 @@ img {
 
 /* Hero Section */
 .hero {
-    background-attachment: fixed;
     background-color: #4f7cac;
-    background-position: center;
-    background-size: cover;
     color: #ffffff;
     display: grid;
     min-height: 40vh;
